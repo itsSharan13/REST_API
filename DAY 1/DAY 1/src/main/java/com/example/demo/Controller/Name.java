@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Name {
 //	@Value("${name}")
-	private String studentName="Hari Prasath";
+	private String studentName="Sharan";
   @GetMapping("/name")
   public String getName()
   {
-	return "welcome "+studentName+" !";
+	return "Welcome "+studentName+" !";
   }
 }
