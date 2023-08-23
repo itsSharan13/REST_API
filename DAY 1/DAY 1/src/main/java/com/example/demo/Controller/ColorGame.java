@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ColorGame {
 //	@Value("${color}")
-	private String color="green";
+	private String color="Black";
 	
     @GetMapping("/color")
     public String getColor()
